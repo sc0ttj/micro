@@ -1,8 +1,8 @@
 filetype: shell
 
 detect:
-    filename: "(\\.sh$|\\.bash|\\.bashrc|bashrc|\\.bash_aliases|bash_aliases|\\.bash_functions|bash_functions|\\.bash_profile|bash_profile|Pkgfile|pkgmk.conf|profile|rc.conf|PKGBUILD|.ebuild\\$|APKBUILD)"
-    header: "^#!.*/(env +)?(ba)?sh( |$)"
+    filename: "(\\.sh$|\\.ash|\\.bash|\\.bashrc|bashrc|\\.ashrc|ashrc|\\.bash_aliases|bash_aliases|\\.bash_functions|bash_functions|\\.bash_profile|bash_profile\\.ash_profile|ash_profile|Pkgfile|pkgmk.conf|profile|rc.conf|PKGBUILD|.ebuild\\$|APKBUILD|\\.bp|\\.buildpet|\\.petuild)"
+    header: "^#!.*/(env +)?(ba|a)?sh( |$)"
 
 rules:
     # Numbers
